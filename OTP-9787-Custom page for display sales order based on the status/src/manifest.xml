@@ -1,0 +1,4 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>OTP-9787-Custom page for display sales order based on the status</projectname>
+  <frameworkversion>1.0</frameworkversion>
+</manifest>
