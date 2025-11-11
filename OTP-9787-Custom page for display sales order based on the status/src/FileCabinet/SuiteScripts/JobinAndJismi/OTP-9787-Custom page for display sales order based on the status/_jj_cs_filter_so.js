@@ -40,8 +40,8 @@ define(['N/record', 'N/url', 'N/currentRecord', 'N/log'],
          */
         function saveRecord(scriptContext) {
             try {
-                var curRecord = scriptContext.currentRecord;
-                var suiteletUrl = generateSuiteletUrl(curRecord);
+                let curRecord = scriptContext.currentRecord;
+                let suiteletUrl = generateSuiteletUrl(curRecord);
                 navigateToSuitelet(suiteletUrl);
                 return false; 
             } catch (error) {
